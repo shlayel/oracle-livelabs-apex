@@ -9,28 +9,28 @@
         "title": "Get Started",
         "filename": "../../../common-241/1-sign-up-apex/1-sign-up-apex.md"
       },
+      // {
+      //   "title": "Lab 1: Configure OCI API Keys and a Bucket",
+      //   "filename": "../../1-configure-oci-keys/1-configure-oci-keys.md"
+      // },
       {
-        "title": "Lab 1: Configure OCI API Keys and a Bucket",
-        "filename": "../../1-configure-oci-keys/1-configure-oci-keys.md"
-      },
-      {
-        "title": "Lab 2: Setup Tasks for Application Development",
+        "title": "Lab 1: Setup Tasks for Application Development",
         "filename": "../../2-install-scripts/2-install-scripts.md"
       },
       {
-        "title": "Lab 3: Integrate OCI Document Understanding with Oracle APEX",
+        "title": "Lab 2: Integrate OCI Document Understanding with Oracle APEX",
         "filename": "../../3-create-application/3-create-application.md"
       },
       {
-        "title": "Lab 4: Develop an Invoice Tracker and Invoice Analysis Page",
+        "title": "Lab 3: Develop an Invoice Tracker and Invoice Analysis Page",
         "filename": "../../4-additional-pages/4-additional-pages.md"
       },
       {
-        "title": "Lab 5: Implement Invoice Approval Requests Using Approvals Component",
+        "title": "Lab 4: Implement Invoice Approval Requests Using Approvals Component",
         "filename": "../../5-approval-comp/5-approval-comp.md"
       },
       {
-        "title": "Lab 6: Run the Application",
+        "title": "Lab 5: Run the Application",
         "filename": "../../6-run-app/6-run-app.md"
       },
       {
