@@ -9,10 +9,6 @@
         "title": "Get Started",
         "filename": "../../../common-241/1-sign-up-apex/1-sign-up-apex.md"
       },
-      // {
-      //   "title": "Lab 1: Configure OCI API Keys and a Bucket",
-      //   "filename": "../../1-configure-oci-keys/1-configure-oci-keys.md"
-      // },
       {
         "title": "Lab 1: Setup Tasks for Application Development",
         "filename": "../../2-install-scripts/2-install-scripts.md"
