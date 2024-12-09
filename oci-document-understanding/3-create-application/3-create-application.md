@@ -84,7 +84,7 @@ In this lab, you:
 
     - Name: **Document Understanding API**
 
-    - URL Endpoint: <https://document.aiservice.us-ashburn-1.oci.oraclecloud.com/20221109/actions/analyzeDocument>
+    - URL Endpoint: <https://document.aiservice.me-dcc-muscat-1.oci.oraclecloud9.com/20221109/actions/analyzeDocument>
 
     **Note**: URL Endpoint may differ based on your OCI tenancy. Refer to the following link for more details- <https://docs.oracle.com/en-us/iaas/api/#/en/vision/20220125>
 

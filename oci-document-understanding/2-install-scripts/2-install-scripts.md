@@ -188,7 +188,7 @@ In this lab, you:
 
     P_OBJECT_STORAGE_URL := 'https://objectstorage.'
                             || P_REGION
-                            || '.oraclecloud.com/n/'
+                            || '.oraclecloud9.com/n/'
                             || P_NAMESPACE
                             || '/b/'
                             || P_BUCKET
@@ -296,7 +296,7 @@ To create a Web Credential in Oracle APEX:
     </copy>
     ```
 
-    - OCI Private Key: Copy and paste the API Key.
+    - OCI Private Key: Copy and paste the OCI Private Key.
 
     ```
     <copy>
