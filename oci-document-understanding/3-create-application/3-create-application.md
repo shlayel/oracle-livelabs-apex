@@ -204,12 +204,12 @@ In this lab, you:
 
    |   | Identification > Name | Identification > Type | Default > Type | Default > Static | Session State > Datatype |
    |---|-------|------|----------| --------------| ------ |
-   | 1 | P1\_COMPARTMENT\_ID| Hidden | Static |Enter your OCI account Compartment ID
+   | 1 | P1\_COMPARTMENT\_ID| Hidden | Static |ocid1.compartment.oc9..aaaaaaaaw3yqfxedif4z7afihxcmlnioaehdqht2cvb7cfcvp3ngwmzytria |
    | 2 | P1\_CRED\_STATIC\_ID| Hidden | Static | APEX\_OCI\_AI\_CRED |
-   | 3 | P1\_NAMESPACE\_NAME| Hidden | Static | Enter  Namespace which you copied while creating a Bucket|
-   | 4 | P1\_BUCKET\_NAME| Hidden | Static | Enter the Bucket Name which you copied while creating a Bucket |
+   | 3 | P1\_NAMESPACE\_NAME| Hidden | Static | ax8lffkifnvk |
+   | 4 | P1\_BUCKET\_NAME| Hidden | Static | OCIDocAI |
    | 5 | P1\_FEATURE\_TYPE| Hidden | Static | KEY\_VALUE\_EXTRACTION |
-   | 6 | P1\_REGION| Hidden | Static | Enter your Region. e.g. us-ashburn-1 |
+   | 6 | P1\_REGION| Hidden | Static | me-dcc-muscat-1 |
    | 7 | P1\_RESPONSE| Hidden |  |  | CLOB
    | 8 | P1\_EMP\_NO| Hidden |  |  |
    {: title="Upload your Invoice Page Items"}
