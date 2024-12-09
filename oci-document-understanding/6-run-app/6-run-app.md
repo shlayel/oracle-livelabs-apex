@@ -22,23 +22,27 @@ In this lab, you:
 
     ![Task Definition in Shared Components](images/login-as-john.png " ")
 
-3. Upload invoices by selecting **Select an Invoice or Receipt** and clicking **Process Document**. OCI Document Understanding will extract invoice fields from the uploaded image or PDF file.
+3. Download a sample invoice
+    <https://apex.oracle.com/go/inv>
+
+
+4. Upload the downloaded sample by selecting **Select an Invoice or Receipt** and clicking **Process Document**. OCI Document Understanding will extract invoice fields from the uploaded image or PDF file.
 
     ![Task Definition in Shared Components](images/process-doc.png " ")
 
-4. After uploading, you will be redirected to the **Invoice Tracker** page, where you can view all your invoices as well as those uploaded by others.
+5. After uploading, you will be redirected to the **Invoice Tracker** page, where you can view all your invoices as well as those uploaded by others.
 
     ![Task Definition in Shared Components](images/invoice-tracker.png " ")
 
-5. Click on an invoice card to open the **Invoice Analysis** dialog page, where you can compare your uploaded PDF with the output from OCI Document Understanding.
+6. Click on an invoice card to open the **Invoice Analysis** dialog page, where you can compare your uploaded PDF with the output from OCI Document Understanding.
 
     ![Task Definition in Shared Components](images/invoice-analysis.png " ")
 
-6. Navigate to **Initiated by Me** to view all invoices uploaded by you..
+7. Navigate to **Initiated by Me** to view all invoices uploaded by you..
 
     ![Task Definition in Shared Components](images/initiated-by-me1.png " ")
 
-7. On the **My Approvals** page, you can view all invoices that require your approval.
+8. On the **My Approvals** page, you can view all invoices that require your approval.
 
     ![Task Definition in Shared Components](images/my-approvals1.png " ")
 
