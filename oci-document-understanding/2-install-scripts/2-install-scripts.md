@@ -288,46 +288,62 @@ To create a Web Credential in Oracle APEX:
     - Authentication Type: **OCI Native Authentication**
 
     - OCI User ID: Enter the OCID of the Oracle Cloud user Account. The OCID is in the Configuration File Preview generated during the API Key creation.
-    Your OCI User ID looks similar to 
+    Copy and paste your OCI User ID 
     
     ```
     <copy>
-MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDb3Fw9o7GMxSAB
-ZXUgZti9RfWzdonjs9IYNbhh+m7aJGT8ut2y0f+6n805NEo0GERt2I9D3RAioKJG
-ZENAUjfHZ8uSTbrDaD6xAX0r7djk31X/3whJTxg1cVyn4MvOotZfnkijuJptX/8w
-5CbNeBCkqhU6SBkEbWUDZdLlrrD4HubKd2svcwQxcb8rppMwBFc9H22W9sAzOX07
-6t0w/G+lvxbRo9DJao5efC+2t46Fzewyu+atMqBbNHsjtsL8arpKOEOPthXLV9GO
-59uM/LQ2GB04QrhqJPCL5ssIAUj/oYkhQ3ZunMYS6z02o1GOz9TYd25icWoe+N3y
-YESxRnGdAgMBAAECggEABZi5J1+Gmj79VtPClMHRdBX3EGuszGVMLI4XhLT3g+mH
-wZAvKwlh8Vn2gyWD2wogGcy4ruFOcxc0MkcEmDtPjK2ldrKwVZ+OcvqG+WqLSh4u
-Rf5jK1yOUPPzCBn2jirCerogfrxo/+5A5Hl2TGYpREvJEQv7SQvQ1bKOmQamnhY9
-NDThSlen4qPL09V5JJqVEArD1Kz4mk9FLOCm2G6swn0Ns6uA87Jlde+oVuIfaUnl
-m3f/rRuxwcoN10PUWY0mjaWfct3P4GHKQRMe0xZYeSCzbkBz3Sw6t9BaO66lfPuG
-St4xk9PgW97eBoEDJWIit6kDYJCRla1ukPcxhP6HYQKBgQDzUG+uRnuzA1YSYFfu
-/OHmTSYciPWUgVNWxpViQ+cbzCYqECI9jxtUVIiK16nZ2RS003bfj+A/Ji4cbUl8
-Fl8h2LUi5YJGL4aA0SH/gXJc+twzSABc2a/euSLMp9CuCAv3TCxcDHxZFu/Yqytl
-gMJ8OwF5rNjzSvEZd2N5oFFhfQKBgQDnUuLyn4vnDzxnc4YKu9Piqo/zkmOlQ6li
-eYDzQno7inGSrq0s/xl0h9e/8x+dXP6/PPTTYlG/i63Ev8Ls1tpvimIU9zJHCwIN
-+Jp8X3QoR0q2k7SzoLWJgs4dSpwS6QEPfVEKWBUeQ0Pgod3yNYX76/SgaaTe/GLh
-xH2U+7JKoQKBgB3eOOdu1Y6DEVTOKN04g86Ol+gW0/a37XAQjpPye/NIm0K8mkdu
-Qs+WVPCeSsZoRIdyEfydn8yAtlZdABFQebsg7BNtkxFkkiFMCt1fmZdaYB+Xbhv3
-yQQRO/ldfFtwt29TFXrzOWyCSU0SrhAWv0kawTKbikJLZ89VfYuXp4XNAoGBALHn
-4lkc8XkEE72wcF+i8yN5b/qxFGfO8N+meNEdyGowYIaiRte7XfVsYDblIeRh2B52
-IAjOrfZ102/k12JVH2v3btWXBBj1U2AxWYbb1rb/lWtzj98yc0vNyP1oGz7D6qfi
-BkjBU4SR0QtbEhospd4JK3uPpFhGnTnrZ3YEWavhAoGBAIGaL0/wqzCrUG7VUE6w
-mch3E9w0eOSZK2qYVZcCgt0zNFELjktHjxqcKfiryQv7RqxJzq/8w74xX22PQADT
-IKiExDyset22HqF5YN/TphuiJyg+3/RLHqakxc10kjhm6cLDv2CtIkWAHJwt7xZE
-YeYhzDiVPyahePzHK1G5mZk9
+    ocid1.user.oc9..aaaaaaaa36nkz74s6wx2dyoxfhiiwokltup5sf2ue5lvosrvwa2r5kbjmwca
     </copy>
     ```
 
-    - OCI Private Key: Open the private key (.pem file) downloaded in the previous task. Copy and paste the API Key.
+    - OCI Private Key: Copy and paste the API Key.
 
-    ![Private key file](images/private-key.png " ")
+    ```
+    <copy>
+    MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDb3Fw9o7GMxSAB
+    ZXUgZti9RfWzdonjs9IYNbhh+m7aJGT8ut2y0f+6n805NEo0GERt2I9D3RAioKJG
+    ZENAUjfHZ8uSTbrDaD6xAX0r7djk31X/3whJTxg1cVyn4MvOotZfnkijuJptX/8w
+    5CbNeBCkqhU6SBkEbWUDZdLlrrD4HubKd2svcwQxcb8rppMwBFc9H22W9sAzOX07
+    6t0w/G+lvxbRo9DJao5efC+2t46Fzewyu+atMqBbNHsjtsL8arpKOEOPthXLV9GO
+    59uM/LQ2GB04QrhqJPCL5ssIAUj/oYkhQ3ZunMYS6z02o1GOz9TYd25icWoe+N3y
+    YESxRnGdAgMBAAECggEABZi5J1+Gmj79VtPClMHRdBX3EGuszGVMLI4XhLT3g+mH
+    wZAvKwlh8Vn2gyWD2wogGcy4ruFOcxc0MkcEmDtPjK2ldrKwVZ+OcvqG+WqLSh4u
+    Rf5jK1yOUPPzCBn2jirCerogfrxo/+5A5Hl2TGYpREvJEQv7SQvQ1bKOmQamnhY9
+    NDThSlen4qPL09V5JJqVEArD1Kz4mk9FLOCm2G6swn0Ns6uA87Jlde+oVuIfaUnl
+    m3f/rRuxwcoN10PUWY0mjaWfct3P4GHKQRMe0xZYeSCzbkBz3Sw6t9BaO66lfPuG
+    St4xk9PgW97eBoEDJWIit6kDYJCRla1ukPcxhP6HYQKBgQDzUG+uRnuzA1YSYFfu
+    /OHmTSYciPWUgVNWxpViQ+cbzCYqECI9jxtUVIiK16nZ2RS003bfj+A/Ji4cbUl8
+    Fl8h2LUi5YJGL4aA0SH/gXJc+twzSABc2a/euSLMp9CuCAv3TCxcDHxZFu/Yqytl
+    gMJ8OwF5rNjzSvEZd2N5oFFhfQKBgQDnUuLyn4vnDzxnc4YKu9Piqo/zkmOlQ6li
+    eYDzQno7inGSrq0s/xl0h9e/8x+dXP6/PPTTYlG/i63Ev8Ls1tpvimIU9zJHCwIN
+    +Jp8X3QoR0q2k7SzoLWJgs4dSpwS6QEPfVEKWBUeQ0Pgod3yNYX76/SgaaTe/GLh
+    xH2U+7JKoQKBgB3eOOdu1Y6DEVTOKN04g86Ol+gW0/a37XAQjpPye/NIm0K8mkdu
+    Qs+WVPCeSsZoRIdyEfydn8yAtlZdABFQebsg7BNtkxFkkiFMCt1fmZdaYB+Xbhv3
+    yQQRO/ldfFtwt29TFXrzOWyCSU0SrhAWv0kawTKbikJLZ89VfYuXp4XNAoGBALHn
+    4lkc8XkEE72wcF+i8yN5b/qxFGfO8N+meNEdyGowYIaiRte7XfVsYDblIeRh2B52
+    IAjOrfZ102/k12JVH2v3btWXBBj1U2AxWYbb1rb/lWtzj98yc0vNyP1oGz7D6qfi
+    BkjBU4SR0QtbEhospd4JK3uPpFhGnTnrZ3YEWavhAoGBAIGaL0/wqzCrUG7VUE6w
+    mch3E9w0eOSZK2qYVZcCgt0zNFELjktHjxqcKfiryQv7RqxJzq/8w74xX22PQADT
+    IKiExDyset22HqF5YN/TphuiJyg+3/RLHqakxc10kjhm6cLDv2CtIkWAHJwt7xZE
+    YeYhzDiVPyahePzHK1G5mZk9
+    </copy>
+    ```
 
-    - OCI Tenancy ID: Enter the OCID for Tenancy. Your Tenancy ID looks similar to **ocid1.tenancy.oc1..aaaaaaaaf7ush\*\*\*\*cxx3qka**
+    - OCI Tenancy ID: Enter the OCID for Tenancy. Copy and paste your Tenancy ID
+    
+    ```
+    <copy>
+    ocid1.tenancy.oc9..aaaaaaaallxmjuq5chlnz365sidyq2smzy2lghygwq4alcrlgs3b2znibmsq
+    </copy>
+    ```
 
-    - OCI Public Key Fingerprint: Enter the Fingerprint ID. Your Fingerprint ID looks similar to **a8:8e:c2:8b:fe:\*\*\*\*:ff:4d:40**
+    - OCI Public Key Fingerprint: Enter the Fingerprint ID. Copy and paste your Fingerprint ID
+    
+    ```
+    <copy>
+    f4:29:61:c9:6a:74:f5:18:59:06:cd:0f:4c:41:34:36
+    </copy>
+    ```
 
    ![Web Credentials page](images/web-creds1.png " ")
 
